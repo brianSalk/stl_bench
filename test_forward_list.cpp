@@ -6,7 +6,6 @@
 #include "/home/brian/Documents/cpp/stl/forward_list/forward_list.h"
 #include <iostream>
 #include <algorithm>
-namespace stl_test {
 using Type = int;
 using my_list_t = brian::forward_list<Type>;
 using their_list_t = std::forward_list<Type>;
@@ -122,7 +121,5 @@ TEST_CASE("testing forward_list constructors") {
 }
 
 TEST_CASE("extra constructor tests") {
-
-}
 
 }
