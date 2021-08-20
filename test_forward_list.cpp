@@ -32,7 +32,7 @@ bool equal(their_list_t const& m, my_list_t const& t) {
 	return (m_it == m.end() && t_it == t.end()) ? true : false ;
 }
 
-TEST_CASE("testing forward_list constructors") {
+TEST_CASE("testing forward_list constructors", "[check]") {
 	my_list_t* mine = nullptr;	
 	their_list_t* theirs = nullptr;
 
@@ -120,6 +120,6 @@ TEST_CASE("testing forward_list constructors") {
 	delete theirs;
 }
 
-TEST_CASE("extra constructor tests") {
-
+TEST_CASE("extra constructor tests", "[check]") {
+	
 }
